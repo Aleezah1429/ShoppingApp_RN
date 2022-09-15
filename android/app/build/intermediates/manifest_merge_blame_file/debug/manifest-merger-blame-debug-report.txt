@@ -1,0 +1,614 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shopping_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="32" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\All Projects\Shopping_app_react_native\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->E:\All Projects\Shopping_app_react_native\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.75.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3f1c7afbafe498777bc68f7541730dd3\jetified-flipper-0.75.1\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.75.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3f1c7afbafe498777bc68f7541730dd3\jetified-flipper-0.75.1\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_auth] E:\All Projects\Shopping_app_react_native\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+14-->[:react-native-firebase_auth] E:\All Projects\Shopping_app_react_native\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- See https://developer.android.com/training/package-visibility/declaring for more details. -->
+15-->[:react-native-firebase_auth] E:\All Projects\Shopping_app_react_native\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+15-->[:react-native-firebase_auth] E:\All Projects\Shopping_app_react_native\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+16    <queries>
+16-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:12:5-20:15
+17
+18        <!-- Added to check the default browser that will host the AuthFlow. -->
+19        <intent>
+19-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:15:9-19:18
+20            <action android:name="android.intent.action.VIEW" />
+20-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:16:13-65
+20-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:16:21-62
+21
+22            <data android:scheme="http" />
+22-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:18:13-43
+22-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:18:19-40
+23        </intent>
+24        <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+25        <package android:name="com.android.chrome" /> <!-- Needs to be explicitly declared on Android R+ -->
+25-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:13:9-54
+25-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:13:18-51
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03bed0cf4a9dfd575834105735231707\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03bed0cf4a9dfd575834105735231707\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <uses-feature
+29-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03bed0cf4a9dfd575834105735231707\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+30        android:glEsVersion="0x00020000"
+30-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03bed0cf4a9dfd575834105735231707\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+31        android:required="true" />
+31-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03bed0cf4a9dfd575834105735231707\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+32
+33    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+33-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:26:5-110
+33-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:26:22-107
+34
+35    <application
+35-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:6:5-24:19
+36        android:name="com.shopping_app.MainApplication"
+36-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:7:7-38
+37        android:allowBackup="false"
+37-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:11:7-34
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.8.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\91e4a5886d4dd71a6d3173946b8411a9\core-1.8.0\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:9:7-41
+41        android:label="@string/app_name"
+41-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:8:7-39
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:10:7-52
+43        android:theme="@style/AppTheme"
+43-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:12:7-38
+44        android:usesCleartextTraffic="true" >
+44-->E:\All Projects\Shopping_app_react_native\android\app\src\debug\AndroidManifest.xml:8:9-44
+45        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+45-->E:\All Projects\Shopping_app_react_native\android\app\src\debug\AndroidManifest.xml:11:9-86
+45-->E:\All Projects\Shopping_app_react_native\android\app\src\debug\AndroidManifest.xml:11:19-83
+46        <activity
+46-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:13:7-23:18
+47            android:name="com.shopping_app.MainActivity"
+47-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:14:9-37
+48            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+48-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:16:9-86
+49            android:label="@string/app_name"
+49-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:15:9-41
+50            android:launchMode="singleTask"
+50-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:17:9-40
+51            android:windowSoftInputMode="adjustResize" >
+51-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:18:9-51
+52            <intent-filter>
+52-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:19:9-22:25
+53                <action android:name="android.intent.action.MAIN" />
+53-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:20:13-65
+53-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:20:21-62
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:21:13-73
+55-->E:\All Projects\Shopping_app_react_native\android\app\src\main\AndroidManifest.xml:21:23-70
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:23:9-42:20
+59            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity"
+59-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:24:13-109
+60            android:exported="true" >
+60-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:25:13-36
+61            <intent-filter>
+61-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:26:13-41:29
+62                <action android:name="android.intent.action.VIEW" />
+62-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:16:13-65
+62-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:16:21-62
+63
+64                <category android:name="android.intent.category.DEFAULT" />
+64-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:29:17-76
+64-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:29:27-73
+65                <category android:name="android.intent.category.BROWSABLE" />
+65-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:30:17-78
+65-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:30:27-75
+66
+67                <!-- Accepts success and cancel URIs that begin with "stripe-auth://link-accounts” -->
+68                <data
+68-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:18:13-43
+69                    android:host="link-accounts"
+70                    android:path="/com.shopping_app/success"
+71                    android:scheme="stripe-auth" />
+71-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:18:19-40
+72                <data
+72-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:18:13-43
+73                    android:host="link-accounts"
+74                    android:path="/com.shopping_app/cancel"
+75                    android:scheme="stripe-auth" />
+75-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:18:19-40
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:43:9-46:57
+79            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity"
+79-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:44:13-101
+80            android:exported="false"
+80-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:45:13-37
+81            android:theme="@style/StripeDefaultTheme" />
+81-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:46:13-54
+82
+83        <provider
+83-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:48:9-52:43
+84            android:name="com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer"
+84-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:49:13-114
+85            android:authorities="com.shopping_app.financialconnections-init"
+85-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:50:13-77
+86            android:exported="false"
+86-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:51:13-37
+87            android:multiprocess="true" />
+87-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:52:13-40
+88
+89        <activity
+89-->[com.stripe:paymentsheet:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09ca33286c5ccf09571bde7e58cdc13b\jetified-paymentsheet-20.9.0\AndroidManifest.xml:10:9-13:69
+90            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+90-->[com.stripe:paymentsheet:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09ca33286c5ccf09571bde7e58cdc13b\jetified-paymentsheet-20.9.0\AndroidManifest.xml:11:13-80
+91            android:exported="false"
+91-->[com.stripe:paymentsheet:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09ca33286c5ccf09571bde7e58cdc13b\jetified-paymentsheet-20.9.0\AndroidManifest.xml:12:13-37
+92            android:theme="@style/StripePaymentSheetDefaultTheme" />
+92-->[com.stripe:paymentsheet:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09ca33286c5ccf09571bde7e58cdc13b\jetified-paymentsheet-20.9.0\AndroidManifest.xml:13:13-66
+93        <activity
+93-->[com.stripe:paymentsheet:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09ca33286c5ccf09571bde7e58cdc13b\jetified-paymentsheet-20.9.0\AndroidManifest.xml:14:9-17:69
+94            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+94-->[com.stripe:paymentsheet:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09ca33286c5ccf09571bde7e58cdc13b\jetified-paymentsheet-20.9.0\AndroidManifest.xml:15:13-82
+95            android:exported="false"
+95-->[com.stripe:paymentsheet:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09ca33286c5ccf09571bde7e58cdc13b\jetified-paymentsheet-20.9.0\AndroidManifest.xml:16:13-37
+96            android:theme="@style/StripePaymentSheetDefaultTheme" />
+96-->[com.stripe:paymentsheet:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09ca33286c5ccf09571bde7e58cdc13b\jetified-paymentsheet-20.9.0\AndroidManifest.xml:17:13-66
+97        <activity
+97-->[com.stripe:paymentsheet:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09ca33286c5ccf09571bde7e58cdc13b\jetified-paymentsheet-20.9.0\AndroidManifest.xml:18:9-21:69
+98            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+98-->[com.stripe:paymentsheet:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09ca33286c5ccf09571bde7e58cdc13b\jetified-paymentsheet-20.9.0\AndroidManifest.xml:19:13-97
+99            android:exported="false"
+99-->[com.stripe:paymentsheet:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09ca33286c5ccf09571bde7e58cdc13b\jetified-paymentsheet-20.9.0\AndroidManifest.xml:20:13-37
+100            android:theme="@style/StripePaymentSheetDefaultTheme" />
+100-->[com.stripe:paymentsheet:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09ca33286c5ccf09571bde7e58cdc13b\jetified-paymentsheet-20.9.0\AndroidManifest.xml:21:13-66
+101        <activity
+101-->[com.stripe:link:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09a9759bdcad92183dc063243e64d87c\jetified-link-20.9.0\AndroidManifest.xml:10:9-14:52
+102            android:name="com.stripe.android.link.LinkActivity"
+102-->[com.stripe:link:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09a9759bdcad92183dc063243e64d87c\jetified-link-20.9.0\AndroidManifest.xml:11:13-64
+103            android:exported="false"
+103-->[com.stripe:link:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09a9759bdcad92183dc063243e64d87c\jetified-link-20.9.0\AndroidManifest.xml:12:13-37
+104            android:label="@string/link"
+104-->[com.stripe:link:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09a9759bdcad92183dc063243e64d87c\jetified-link-20.9.0\AndroidManifest.xml:13:13-41
+105            android:theme="@style/LinkBaseTheme" />
+105-->[com.stripe:link:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09a9759bdcad92183dc063243e64d87c\jetified-link-20.9.0\AndroidManifest.xml:14:13-49
+106        <activity
+106-->[com.stripe:payments-ui-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b5f3452a450598913c18deeb8d40b2a4\jetified-payments-ui-core-20.9.0\AndroidManifest.xml:10:9-13:69
+107            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+107-->[com.stripe:payments-ui-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b5f3452a450598913c18deeb8d40b2a4\jetified-payments-ui-core-20.9.0\AndroidManifest.xml:11:13-80
+108            android:exported="false"
+108-->[com.stripe:payments-ui-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b5f3452a450598913c18deeb8d40b2a4\jetified-payments-ui-core-20.9.0\AndroidManifest.xml:12:13-37
+109            android:theme="@style/StripePaymentSheetDefaultTheme" />
+109-->[com.stripe:payments-ui-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b5f3452a450598913c18deeb8d40b2a4\jetified-payments-ui-core-20.9.0\AndroidManifest.xml:13:13-66
+110        <activity
+110-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:17:9-20:57
+111            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+111-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:18:13-76
+112            android:exported="false"
+112-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:19:13-37
+113            android:theme="@style/StripeDefaultTheme" />
+113-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:20:13-54
+114        <activity
+114-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:21:9-24:57
+115            android:name="com.stripe.android.view.PaymentMethodsActivity"
+115-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:22:13-74
+116            android:exported="false"
+116-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:23:13-37
+117            android:theme="@style/StripeDefaultTheme" />
+117-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:24:13-54
+118        <activity
+118-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:25:9-28:57
+119            android:name="com.stripe.android.view.PaymentFlowActivity"
+119-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:26:13-71
+120            android:exported="false"
+120-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:27:13-37
+121            android:theme="@style/StripeDefaultTheme" />
+121-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:28:13-54
+122        <activity
+122-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:29:9-33:58
+123            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+123-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:30:13-78
+124            android:exported="false"
+124-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:31:13-37
+125            android:theme="@style/StripeDefaultTheme"
+125-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:32:13-54
+126            android:windowSoftInputMode="adjustResize" />
+126-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:33:13-55
+127        <activity
+127-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:34:9-37:61
+128            android:name="com.stripe.android.view.PaymentRelayActivity"
+128-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:35:13-72
+129            android:exported="false"
+129-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:36:13-37
+130            android:theme="@style/StripeTransparentTheme" />
+130-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:37:13-58
+131        <!--
+132        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+133        launched the browser Activity will also handle the return URL deep link.
+134        -->
+135        <activity
+135-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:43:9-47:61
+136            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+136-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:44:13-85
+137            android:exported="false"
+137-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:45:13-37
+138            android:launchMode="singleTask"
+138-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:46:13-44
+139            android:theme="@style/StripeTransparentTheme" />
+139-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:47:13-58
+140        <activity
+140-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:48:9-65:20
+141            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+141-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:49:13-88
+142            android:exported="true"
+142-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:50:13-36
+143            android:launchMode="singleTask"
+143-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:51:13-44
+144            android:theme="@style/StripeTransparentTheme" >
+144-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:52:13-58
+145            <intent-filter>
+145-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:53:13-64:29
+146                <action android:name="android.intent.action.VIEW" />
+146-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:16:13-65
+146-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:16:21-62
+147
+148                <category android:name="android.intent.category.DEFAULT" />
+148-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:29:17-76
+148-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:29:27-73
+149                <category android:name="android.intent.category.BROWSABLE" />
+149-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:30:17-78
+149-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:30:27-75
+150
+151                <!-- Must match `DefaultReturnUrl#value`. -->
+152                <data
+152-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:18:13-43
+153                    android:host="payment_return_url"
+154                    android:path="/com.shopping_app"
+155                    android:scheme="stripesdk" />
+155-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:18:19-40
+156            </intent-filter>
+157        </activity>
+158        <activity
+158-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:66:9-69:57
+159            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+159-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:67:13-114
+160            android:exported="false"
+160-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:68:13-37
+161            android:theme="@style/StripeDefaultTheme" />
+161-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:69:13-54
+162        <activity
+162-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:70:9-73:66
+163            android:name="com.stripe.android.googlepaylauncher.StripeGooglePayActivity"
+163-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:71:13-88
+164            android:exported="false"
+164-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:72:13-37
+165            android:theme="@style/StripeGooglePayDefaultTheme" />
+165-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:73:13-63
+166        <activity
+166-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:74:9-77:66
+167            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+167-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:75:13-90
+168            android:exported="false"
+168-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:76:13-37
+169            android:theme="@style/StripeGooglePayDefaultTheme" />
+169-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:77:13-63
+170        <activity
+170-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:78:9-81:66
+171            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+171-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:79:13-103
+172            android:exported="false"
+172-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:80:13-37
+173            android:theme="@style/StripeGooglePayDefaultTheme" />
+173-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:81:13-63
+174        <activity
+174-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:82:9-85:62
+175            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+175-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:83:13-107
+176            android:exported="false"
+176-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:84:13-37
+177            android:theme="@style/PayLauncherDefaultTheme" />
+177-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:85:13-59
+178        <activity
+178-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:86:9-89:61
+179            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+179-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:87:13-97
+180            android:exported="false"
+180-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:88:13-37
+181            android:theme="@style/StripeTransparentTheme" />
+181-->[com.stripe:payments-core:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\148a52df3bb7a3bf977dfd7d4cb9f23d\jetified-payments-core-20.9.0\AndroidManifest.xml:89:13-58
+182        <activity
+182-->[com.stripe:stripe-3ds2-android:6.1.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fb5bfe10ac8fc02804fc3a38d35f7736\jetified-stripe-3ds2-android-6.1.5\AndroidManifest.xml:10:9-13:54
+183            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+183-->[com.stripe:stripe-3ds2-android:6.1.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fb5bfe10ac8fc02804fc3a38d35f7736\jetified-stripe-3ds2-android-6.1.5\AndroidManifest.xml:11:13-81
+184            android:exported="false"
+184-->[com.stripe:stripe-3ds2-android:6.1.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fb5bfe10ac8fc02804fc3a38d35f7736\jetified-stripe-3ds2-android-6.1.5\AndroidManifest.xml:12:13-37
+185            android:theme="@style/Stripe3DS2Theme" />
+185-->[com.stripe:stripe-3ds2-android:6.1.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fb5bfe10ac8fc02804fc3a38d35f7736\jetified-stripe-3ds2-android-6.1.5\AndroidManifest.xml:13:13-51
+186        <activity
+186-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:27:9-44:20
+187            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+187-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:28:13-80
+188            android:excludeFromRecents="true"
+188-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:29:13-46
+189            android:exported="true"
+189-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:30:13-36
+190            android:launchMode="singleTask"
+190-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:31:13-44
+191            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+191-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:32:13-72
+192            <intent-filter>
+192-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:33:13-43:29
+193                <action android:name="android.intent.action.VIEW" />
+193-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:16:13-65
+193-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:16:21-62
+194
+195                <category android:name="android.intent.category.DEFAULT" />
+195-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:29:17-76
+195-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:29:27-73
+196                <category android:name="android.intent.category.BROWSABLE" />
+196-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:30:17-78
+196-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:30:27-75
+197
+198                <data
+198-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:18:13-43
+199                    android:host="firebase.auth"
+200                    android:path="/"
+201                    android:scheme="genericidp" />
+201-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:18:19-40
+202            </intent-filter>
+203        </activity>
+204        <activity
+204-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:45:9-62:20
+205            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+205-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:46:13-79
+206            android:excludeFromRecents="true"
+206-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:47:13-46
+207            android:exported="true"
+207-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:48:13-36
+208            android:launchMode="singleTask"
+208-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:49:13-44
+209            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+209-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:50:13-72
+210            <intent-filter>
+210-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:51:13-61:29
+211                <action android:name="android.intent.action.VIEW" />
+211-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:16:13-65
+211-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:16:21-62
+212
+213                <category android:name="android.intent.category.DEFAULT" />
+213-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:29:17-76
+213-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:29:27-73
+214                <category android:name="android.intent.category.BROWSABLE" />
+214-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:30:17-78
+214-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:30:27-75
+215
+216                <data
+216-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:18:13-43
+217                    android:host="firebase.auth"
+218                    android:path="/"
+219                    android:scheme="recaptcha" />
+219-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:18:19-40
+220            </intent-filter>
+221        </activity>
+222
+223        <service
+223-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:64:9-73:19
+224            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+224-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:65:13-101
+225            android:enabled="true"
+225-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:66:13-35
+226            android:exported="false" >
+226-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:67:13-37
+227            <intent-filter>
+227-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:68:13-72:29
+228                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+228-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:69:17-89
+228-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:69:25-86
+229
+230                <category android:name="android.intent.category.DEFAULT" />
+230-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:29:17-76
+230-->[com.stripe:financial-connections:20.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1f5c501b9e8b7ee9637b082e3234dffa\jetified-financial-connections-20.9.0\AndroidManifest.xml:29:27-73
+231            </intent-filter>
+232        </service>
+233        <service
+233-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:74:9-80:19
+234            android:name="com.google.firebase.components.ComponentDiscoveryService"
+234-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:75:13-84
+235            android:directBootAware="true"
+235-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d3e6246e707c39261af636f804f328d7\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+236            android:exported="false" >
+236-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:76:13-37
+237            <meta-data
+237-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:77:13-79:85
+238                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+238-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:78:17-109
+239                android:value="com.google.firebase.components.ComponentRegistrar" />
+239-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\28e6580974c87a3d680b72e0dec3d8fb\jetified-firebase-auth-20.0.4\AndroidManifest.xml:79:17-82
+240            <meta-data
+240-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2a9fcdb430c64e90e050bb0c53425ccd\jetified-firebase-database-19.7.0\AndroidManifest.xml:32:13-34:85
+241                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+241-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2a9fcdb430c64e90e050bb0c53425ccd\jetified-firebase-database-19.7.0\AndroidManifest.xml:33:17-109
+242                android:value="com.google.firebase.components.ComponentRegistrar" />
+242-->[com.google.firebase:firebase-database:19.7.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2a9fcdb430c64e90e050bb0c53425ccd\jetified-firebase-database-19.7.0\AndroidManifest.xml:34:17-82
+243            <meta-data
+243-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\952b810127db0d9415b60d3f48442ef5\jetified-play-services-measurement-api-18.0.3\AndroidManifest.xml:30:13-32:85
+244                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+244-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\952b810127db0d9415b60d3f48442ef5\jetified-play-services-measurement-api-18.0.3\AndroidManifest.xml:31:17-139
+245                android:value="com.google.firebase.components.ComponentRegistrar" />
+245-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\952b810127db0d9415b60d3f48442ef5\jetified-play-services-measurement-api-18.0.3\AndroidManifest.xml:32:17-82
+246            <meta-data
+246-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\39d95f58b3bc866a750e958dfccc864c\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+247                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+247-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\39d95f58b3bc866a750e958dfccc864c\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+248                android:value="com.google.firebase.components.ComponentRegistrar" />
+248-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\39d95f58b3bc866a750e958dfccc864c\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+249            <!--
+250                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+251                clients to use it as well, by defining this registrar in their own core/common library.
+252            -->
+253            <meta-data
+253-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d3e6246e707c39261af636f804f328d7\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+254                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+254-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d3e6246e707c39261af636f804f328d7\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+255                android:value="com.google.firebase.components.ComponentRegistrar" />
+255-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d3e6246e707c39261af636f804f328d7\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+256        </service>
+257
+258        <provider
+258-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d3e6246e707c39261af636f804f328d7\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+259            android:name="com.google.firebase.provider.FirebaseInitProvider"
+259-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d3e6246e707c39261af636f804f328d7\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+260            android:authorities="com.shopping_app.firebaseinitprovider"
+260-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d3e6246e707c39261af636f804f328d7\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+261            android:directBootAware="true"
+261-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d3e6246e707c39261af636f804f328d7\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+262            android:exported="false"
+262-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d3e6246e707c39261af636f804f328d7\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+263            android:initOrder="100" />
+263-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\d3e6246e707c39261af636f804f328d7\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+264
+265        <activity
+265-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\dfd3944feb58342c43a2193e98ebbc30\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+266            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+266-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\dfd3944feb58342c43a2193e98ebbc30\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+267            android:excludeFromRecents="true"
+267-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\dfd3944feb58342c43a2193e98ebbc30\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+268            android:exported="false"
+268-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\dfd3944feb58342c43a2193e98ebbc30\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+269            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+269-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\dfd3944feb58342c43a2193e98ebbc30\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+270        <!--
+271            Service handling Google Sign-In user revocation. For apps that do not integrate with
+272            Google Sign-In, this service will never be started.
+273        -->
+274        <service
+274-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\dfd3944feb58342c43a2193e98ebbc30\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+275            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+275-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\dfd3944feb58342c43a2193e98ebbc30\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+276            android:exported="true"
+276-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\dfd3944feb58342c43a2193e98ebbc30\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+277            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+277-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\dfd3944feb58342c43a2193e98ebbc30\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+278            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+278-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\dfd3944feb58342c43a2193e98ebbc30\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+279        <uses-library
+279-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03bed0cf4a9dfd575834105735231707\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+280            android:name="org.apache.http.legacy"
+280-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03bed0cf4a9dfd575834105735231707\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+281            android:required="false" />
+281-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\03bed0cf4a9dfd575834105735231707\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+282
+283        <activity
+283-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6bdbb3e7f7a13af8ac6282a22ba56edc\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+284            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+284-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6bdbb3e7f7a13af8ac6282a22ba56edc\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+285            android:exported="false"
+285-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6bdbb3e7f7a13af8ac6282a22ba56edc\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+286            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+286-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6bdbb3e7f7a13af8ac6282a22ba56edc\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+287
+288        <receiver
+288-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:29:9-33:20
+289            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+289-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:30:13-85
+290            android:enabled="true"
+290-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:31:13-35
+291            android:exported="false" >
+291-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:32:13-37
+292        </receiver>
+293
+294        <service
+294-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:35:9-38:40
+295            android:name="com.google.android.gms.measurement.AppMeasurementService"
+295-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:36:13-84
+296            android:enabled="true"
+296-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:37:13-35
+297            android:exported="false" />
+297-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:38:13-37
+298        <service
+298-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:39:9-43:72
+299            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+299-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:40:13-87
+300            android:enabled="true"
+300-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:41:13-35
+301            android:exported="false"
+301-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:42:13-37
+302            android:permission="android.permission.BIND_JOB_SERVICE" />
+302-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e9b08aecd8d9cc1eeacb801e233758db\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:43:13-69
+303
+304        <meta-data
+304-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\19eb1232ac3c3ac4f1d5977bc45546ce\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+305            android:name="com.google.android.gms.version"
+305-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\19eb1232ac3c3ac4f1d5977bc45546ce\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+306            android:value="@integer/google_play_services_version" />
+306-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\19eb1232ac3c3ac4f1d5977bc45546ce\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+307
+308        <provider
+308-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:25:9-33:20
+309            android:name="androidx.startup.InitializationProvider"
+309-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:26:13-67
+310            android:authorities="com.shopping_app.androidx-startup"
+310-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:27:13-68
+311            android:exported="false" >
+311-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:28:13-37
+312            <meta-data
+312-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+313                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+313-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+314                android:value="androidx.startup" />
+314-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+315        </provider>
+316
+317        <receiver
+317-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+318            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+318-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+319            android:directBootAware="false"
+319-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+320            android:enabled="true"
+320-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+321            android:exported="true"
+321-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+322            android:permission="android.permission.DUMP" >
+322-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+323            <intent-filter>
+323-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+324                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+324-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+324-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+325            </intent-filter>
+326            <intent-filter>
+326-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+327                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+327-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+327-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0bcc7378be78de977ce24fc627698ef3\jetified-profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+328            </intent-filter>
+329        </receiver>
+330
+331        <meta-data
+331-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8322c9fc395af1222c6fb924a3207985\jetified-instantapps-1.1.0\AndroidManifest.xml:10:9-12:33
+332            android:name="aia-compat-api-min-version"
+332-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8322c9fc395af1222c6fb924a3207985\jetified-instantapps-1.1.0\AndroidManifest.xml:11:13-54
+333            android:value="1" />
+333-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8322c9fc395af1222c6fb924a3207985\jetified-instantapps-1.1.0\AndroidManifest.xml:12:13-30
+334    </application>
+335
+336</manifest>

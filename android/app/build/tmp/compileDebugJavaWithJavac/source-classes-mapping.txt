@@ -1,0 +1,14 @@
+com/shopping_app/MainActivity.java
+ com.shopping_app.MainActivity
+com/shopping_app/MainApplication.java
+ com.shopping_app.MainApplication
+ com.shopping_app.MainApplication$1
+com/shopping_app/BuildConfig.java
+ com.shopping_app.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/shopping_app/ReactNativeFlipper.java
+ com.shopping_app.ReactNativeFlipper
+ com.shopping_app.ReactNativeFlipper$1
+ com.shopping_app.ReactNativeFlipper$2
+ com.shopping_app.ReactNativeFlipper$2$1
