@@ -13,6 +13,8 @@ Online Shopping App built on **React Native** and **Firebase Realtime Database**
 
 1.	**Login/Signup**
 
+(for Login => email = admin@gmail.com and password = 12345678)
+
 Welcome screen of the app which shows the app logo and app name with animation. User can easily sign in with google or app signin system. After Signin, proceeds to the next activity.
 
 ![image](https://user-images.githubusercontent.com/64039031/190459959-c8de7fd8-e791-4f68-842e-ed016da11da7.png) 
